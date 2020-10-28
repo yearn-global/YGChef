@@ -1057,4 +1057,4 @@ contract YGChef is Ownable {
         require(msg.sender == devaddr, "dev: wut?");
         devaddr = _devaddr;
     }
-}
+}       
